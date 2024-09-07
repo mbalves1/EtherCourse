@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "EtherRavn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"etherravn.sol": "etherRavn"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"etherravn.sol": {
+			"keccak256": "0x6fb7323f0283be1d8b1246353a9fc8dfbf4eb4a3151a73db9ad8eef5508972d1",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4a4e2a228d5f8ec904ca3151cd9e3d18e3503cb8e947d656bf6ee9b7d68906be",
+				"dweb:/ipfs/QmUhoJKicWJanoak1jddyTyGMFv1BLD3p1ShheFaG3NZYd"
+			]
+		}
+	},
+	"version": 1
+}
