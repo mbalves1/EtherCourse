@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "countInstructors",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -55,7 +68,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "instrutorAccts",
+				"name": "instructorAccts",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -123,11 +136,11 @@
 	},
 	"sources": {
 		"Courses.sol": {
-			"keccak256": "0xcbfce0af738d88745b52122b32c2749255d470eefee91772b377a8f73dce7759",
+			"keccak256": "0xcd6de39aca3e53d1848b58bffc95da3d46fc7b40a6f760093261df2b329b0358",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2d44c18785249c81f884752ff7240f91f13b0e0a1c896f73d15fbb83def778e1",
-				"dweb:/ipfs/Qma3kQpgfi7dRHNr2miTyRicBjCcU7gZ3PUfUWrtNoZC72"
+				"bzz-raw://49c1e752f4c2685ce60180872ac3e21318c74f93cad41cac322078eccc49f984",
+				"dweb:/ipfs/QmTJuxyNkBEHY7EXUAHshr7AFHBostTfWyx8UEoWnHQEFG"
 			]
 		}
 	},

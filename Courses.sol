@@ -10,7 +10,7 @@ contract Courses {
 
     mapping(address => Instructor) instructors;
 
-    address[] public instrutorAccts;
+    address[] public instructorAccts;
 
     function setInstructor(address _address, uint _age, string memory _fName, string memory _lName) public {
         Instructor storage instructor = instructors[_address];
@@ -19,14 +19,18 @@ contract Courses {
         instructor.fName = _fName;
         instructor.lName = _lName;
 
-        instrutorAccts.push(_address);
+        instructorAccts.push(_address);
     }
 
     function getInstructors() view public returns (address[] memory) {
-        return instrutorAccts;
+        return instructorAccts;
     }
 
     function getInstructor(address _address) view public returns (uint, string memory, string memory) {
         return (instructors[_address].age, instructors[_address].fName, instructors[_address].lName);
+    }
+
+    function countInstructors() view public returns (uint) {
+        return instructorAccts.length;
     }
 }
