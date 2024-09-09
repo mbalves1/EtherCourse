@@ -26,6 +26,13 @@
 			},
 			{
 				"inputs": [],
+				"name": "EtherRavn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getInstructor",
 				"outputs": [
 					{
@@ -89,11 +96,11 @@
 	},
 	"sources": {
 		"etherravn.sol": {
-			"keccak256": "0xf16a91712ea2c24f3f12ec78f41e3e61924a2c63a7cf091e99406691f422bd8b",
+			"keccak256": "0xb54b71aff65547cfa5323ce4bd25a094a9342765ff89394e48a6bc06a6878b34",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://37142a6b7fd0e9a0b4797dc00a35064449c529492f3f2d4ce5a76b7a0ae55489",
-				"dweb:/ipfs/QmUwPafDC1q49Fz6JSy2EpAgspkrKFaF7KbKJsE62tZmcT"
+				"bzz-raw://44aa206f6c0c2d25dddd5352a95ac3556899f961bab9f2a2ffb7e6101f7ad242",
+				"dweb:/ipfs/QmVQUCF9Qk1oWmeWN9WwyU4v6EAVh1SjDQ2NyRuCUXKHFP"
 			]
 		}
 	},
